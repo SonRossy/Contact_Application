@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" fx:id="Home" prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="contact.FXMLDocumentController">
+    <children>
+      <Button fx:id="Add" layoutX="11.0" layoutY="346.0" minWidth="-Infinity" onAction="#Add" prefHeight="25.0" prefWidth="84.0" text="ADD" />
+      <TextField fx:id="NameField" layoutX="96.0" layoutY="461.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="200.0" promptText="enter Name" />
+      <TextField fx:id="NumberField" layoutX="302.0" layoutY="461.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="200.0" promptText="enter Number" />
+      <Button fx:id="Delete" layoutX="11.0" layoutY="433.0" minWidth="-Infinity" onAction="#Delete" prefHeight="25.0" prefWidth="84.0" text="DELETE" />
+      <ListView fx:id="NameView" layoutX="95.0" layoutY="50.0" prefHeight="408.0" prefWidth="200.0" />
+      <ListView fx:id="NumberView" layoutX="302.0" layoutY="50.0" prefHeight="408.0" prefWidth="200.0" />
+      <Button fx:id="Search" layoutX="11.0" layoutY="269.0" minWidth="-Infinity" onAction="#Search" prefHeight="25.0" prefWidth="84.0" text="SEARCH" />
+      <Button fx:id="ShowAll" layoutX="11.0" layoutY="192.0" minWidth="-Infinity" onAction="#ShowAll" prefHeight="25.0" prefWidth="84.0" text="SHOW ALL" />
+      <Label fx:id="NameLabel" layoutX="95.0" layoutY="33.0" prefHeight="17.0" prefWidth="200.0" text="                        NAME" />
+      <Label fx:id="NumberLabel" layoutX="302.0" layoutY="33.0" prefHeight="17.0" prefWidth="200.0" text="               NUMBER" textAlignment="CENTER" />
+    </children>
+</AnchorPane>

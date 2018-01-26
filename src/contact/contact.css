@@ -1,0 +1,21 @@
+#ShowAll, #Add, #Delete,#Search{/*selecting many items*/
+    -fx-background-color: lightblue;
+    -fx-font-weight:bold;
+}
+#NameField, #NumberField{
+    -fx-background-color: lightblue;
+}
+#NameView, #NumberView{
+    -fx-border-color: lightblue;
+    -fx-font-weight:bold;
+    -fx-color:lightblue;
+}
+
+#NumberLabel, #NameLabel{
+    -fx-text-fill: blue;
+    -fx-background-color: lightblue;
+}
+
+.root{/*for the main pane*/
+    -fx-background-color: lightgreen;
+}
